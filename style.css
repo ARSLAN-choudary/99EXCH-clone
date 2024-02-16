@@ -1,0 +1,178 @@
+.navbar{
+    background-color: rgb(15,36,98);
+}
+.logo{
+    width: 100px;
+}
+.bi{
+    color: aliceblue;
+}
+.color{
+    background-color:  rgb(121,82,9);
+    background: linear-gradient(90deg, rgba(121,82,9,1) 61%, rgba(255,200,0,1) 79%, rgba(163,109,0,1) 98%);;
+}
+.chocolate{
+    height: 485px;
+    width: 100%;
+    background-color: rgb(29,18,18);
+}
+.main{
+    margin: 0% !important;
+}
+.icon{
+    margin-left: 2rem;
+    width: 160px;
+}
+.dark{
+    background-color:rgb(34,34,34);
+}
+.fs6{
+    font-size: small;
+}
+.round{
+    border-radius: 20px;
+    background-color: rgb(50, 50, 50);
+}
+.text{
+    background-color: rgb(34,34,34) ;
+    font-size: 12px;
+    font-weight: 600;
+}
+.card{
+    border: none;
+    border-radius: 50px;
+}
+.btn:hover {
+    background-color: #ffa500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:active {
+    background-color: #ffa500;
+  }
+  .banner {
+    width:100; 
+    height: 160px;
+    background-image: url('silver.avif');
+    background-size: cover;
+    background-position: center;
+}
+.space{
+    margin-right: 0%;
+}
+.form-check-input{
+    margin-top: -1rem;
+}
+.checktxt{
+    font-size: 12px;
+    margin-left: 2rem;
+    color: #ffa500;
+}
+.circle{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.buble {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #000;
+  }
+  .buble:hover{
+    margin-bottom: 1rem;
+  }
+  .bubble1{
+    background-color: #ffa500;
+  }
+  .bubble2{
+    background-color: red;
+  }
+  .bubble3{
+    background-color: green;
+  }
+  .bubble4{
+    background-color: blue;
+  }
+  .bubble5{
+    background-color: blueviolet;
+  }
+  .bubble6{
+    background-color:brown;
+  }
+  .loby{
+    font-size: 10px;
+    font-weight: 600;
+    color: aliceblue;
+    margin-bottom: -3px;
+  }
+  .yellow{
+    color: #ffa500;
+   
+  }
+  .btnblack{
+    border: 1px #ffa500;
+    border-radius: 10px;
+  }
+  .blackbg{
+    background-color: #000;
+    max-width: 780px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  .darkyellow{
+   max-width: 760px;
+    min-height: 45px;
+    background-color: #ffa500;
+}
+.btn1{
+    background-color:rgb(114,187,239);
+}
+.btn2{
+    background-color: rgb(250,169,186);
+}
+.bttn2{
+  padding: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.zero{
+    margin-top: -10px;
+}
+
+
+@media (max-width: 768px) {
+    .bttn2 {
+        width: 90%; 
+    }
+}
+@media(max-width: 768px){
+  .board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buble{
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .circle{
+    width: auto;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+}
