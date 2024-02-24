@@ -3,6 +3,7 @@
 }
 .logo{
     width: 100px;
+    margin-top: -3px;
 }
 .bi{
     color: aliceblue;
@@ -18,10 +19,22 @@
 }
 .main{
     margin: 0% !important;
+    border: 2px solid rgb(141, 141, 141);
+}
+.iconborder{
+  border: 1px solid orange;
+  border-radius: 10px;
+  width: auto;
+}
+.icontxt{
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 0%;
+  
 }
 .icon{
     margin-left: 2rem;
-    width: 160px;
+    width: 140px;
 }
 .dark{
     background-color:rgb(34,34,34);
@@ -52,7 +65,7 @@
     transition: background-color 0.3s; 
   }
   .banner {
-    width:100; 
+    
     height: auto;
     background-image: url('silver.avif');
     background-size: cover;
@@ -60,29 +73,36 @@
 }
 
 .form-check-input{
-    margin-top: -1rem;
+    margin-top: -5px;
+    color: #ffa500;
 }
 .checktxt{
-    font-size: 12px;
-    margin-left: 2rem;
+    font-size: 10px;
     color: #ffa500;
 }
 .circle{
-    width: 300px;
-    height: 50px;
+    width: 250px;
+    height: 40px;
     background-color: black;
     border-radius: 20px;
+    border-left: 1px solid white;
 }
 
 .buble {
-    width: 38px;
-    height: 38px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
-    border: 2px solid #000;
+    margin-right: 1px;
   }
-  .buble:hover{
-    margin-bottom: 1rem;
+.buble:hover {
+   margin-bottom: 10px;
   }
+  .number{
+    font-size: 13px;
+    font-weight: 800;
+    margin-top: 5px;
+  }
+  
   .bubble1{
     background-color: #ffa500;
   }
@@ -105,15 +125,17 @@
     font-size: 10px;
     font-weight: 600;
     color: aliceblue;
-    margin-bottom: -3px;
+    margin-top: -5px;
   }
   .yellow{
     color: #ffa500;
    
   }
   .btnblack{
-    border: 1px #ffa500;
-    border-radius: 10px;
+    border: 1px solid#ffa500;
+    border-radius: 8px;
+    height: 35px;
+    width: 35px;
   }
   .blackbg{
     background-color: #000;
@@ -124,7 +146,7 @@
   .darkyellow{
    max-width: 760px;
     min-height: 45px;
-    background-color: #ffa500;
+    background: linear-gradient(to bottom, orange , black);
 }
 .btn1{
     background-color:rgb(114,187,239);
@@ -274,6 +296,64 @@
 .codex{
   display: none;
 }
+.btnhover{
+  font-size: 10px;
+  background-color: rgb(71, 71, 71);
+  padding-top: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 7px;
+  border-radius: 20px;
+}
+.btnhover:hover{
+  background-color:rgb(231, 152, 5);
+}
+.teenpati{
+  font-size: small;
+}
+.person{
+  color: gray;
+}
+.card-img-top{
+  border-radius: 20px;
+  background-color: black;
+}
+.card-img-top:hover{
+  border: 1px solid orange;
+}
+.card{
+  color: gray;
+  background-color:rgb(34,34,34);
+}
+.custom-search {
+  position: relative;
+}
+.custom-search input[type="search"] {
+  border: 1px solid gray;
+}
+.custom-search input[type="search"]::placeholder {
+  color: gray;
+}
+.custom-search .search-icon {
+  position: absolute;
+  right: 40px; 
+  top: 50%;
+  transform: translateY(-40%);
+}
+.arrow{
+  margin-top: -5px;
+}
+.btn:hover{
+  background-color: orange;
+}
+
+.secondcol{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.inputround{
+  width: 325px;
+}
 
 @media(max-width: 768px){
   .board{
@@ -282,16 +362,13 @@
     align-items: center;
   }
   .buble{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     margin-left: 3px;
     margin-right: 3px;
+    font-size: 10px;
   }
-  .circle{
-    width: auto;
-    height: 40px;
-    margin-bottom: 5px;
-  }
+ 
   .txtbb{
     display: none;
   }
